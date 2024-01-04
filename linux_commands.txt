@@ -1,0 +1,171 @@
+
+
+# Working with Files and Directories
+
+# List files and directories in the current directory
+ls
+
+# List all files (including hidden) with details
+ls -la
+
+# Change directory
+cd <directory_path>
+
+# Create a new directory
+mkdir <directory_name>
+
+# Create a new file
+touch <file_name>
+
+# Copy file or directory
+cp <source> <destination>
+
+# Move or rename file or directory
+mv <source> <destination>
+
+# Remove file
+rm <file_name>
+
+# Remove directory and its contents
+rm -r <directory_name>
+
+# Working with Text Files
+
+# Display file content
+cat <file_name>
+
+# Display file content with line numbers
+cat -n <file_name>
+
+# View the beginning of a file
+head <file_name>
+
+# View the end of a file
+tail <file_name>
+
+# Display contents with search and highlight
+grep "search_pattern" <file_name>
+
+# Process Management
+
+# Display running processes
+ps aux
+
+# Kill a process by process ID (PID)
+kill <PID>
+
+# Kill all processes by name
+pkill <process_name>
+
+# Network and Connectivity
+
+# Check network connectivity
+ping <host>
+
+# Display network information
+ifconfig
+
+# View open ports
+netstat -tulpn
+
+# File System and Disk Space
+
+# Display disk space usage
+df -h
+
+# Display disk usage for a directory
+du -h <directory_path>
+
+# Archive and Compression
+
+# Create a tar archive
+tar -cvf <archive_name.tar> <files_or_directories>
+
+# Extract files from a tar archive
+tar -xvf <archive_name.tar>
+
+# Compress a file with gzip
+gzip <file_name>
+
+# Decompress a file with gzip
+gunzip <file_name.gz>
+
+# System Information
+
+# Display system information
+uname -a
+
+# Show CPU information
+lscpu
+
+# Show memory information
+free -h
+
+# Users and Permissions
+
+# Display current user
+whoami
+
+# Change file permissions
+chmod <permissions> <file_name>
+
+
+# File and Directory Operations
+1. ls                    # List files and directories
+2. cd                    # Change directory
+3. pwd                   # Print working directory
+4. cp                    # Copy files or directories
+5. mv                    # Move or rename files or directories
+6. rm                    # Remove files or directories
+7. mkdir                 # Create a new directory
+8. rmdir                 # Remove an empty directory
+
+# File Content Operations
+9. cat                   # Concatenate and display file content
+10. less                 # View file content one screen at a time
+11. head                 # Display the first few lines of a file
+12. tail                 # Display the last few lines of a file
+13. touch                # Create an empty file or update timestamp
+14. nano or vi           # Text editors for creating or editing files
+
+# File Permission and Ownership
+15. chmod                # Change file permissions
+16. chown                # Change file owner and group
+
+# Searching and Finding
+17. grep                 # Search for patterns in files
+18. find                 # Search for files and directories
+19. locate               # Quickly find the location of a file
+
+# Process Management
+20. ps                   # Display information about running processes
+21. top                  # Display and update sorted information about processes
+22. kill                 # Terminate a process
+23. pkill                # Send a signal to a process based on its name
+24. jobs                 # Display background jobs
+
+# System Information
+25. uname                # Display system information
+26. df                   # Display disk space usage
+27. free                 # Display free and used memory in the system
+
+# Network and Connectivity
+28. ping                 # Check network connectivity
+29. traceroute           # Display the route packets take to a network host
+30. ifconfig             # Configure network interface parameters
+31. netstat              # Display network connections, routing tables, interface statistics
+
+# Compression and Archiving
+32. tar                  # Create or extract tar archives
+33. gzip and gunzip     # Compress or decompress files
+
+# System Administration
+34. sudo                 # Execute a command as the superuser
+35. su                   # Switch user or become another user
+36. systemctl            # Control the systemd system and service manager
+
+# Miscellaneous
+37. history              # Display command history
+38. date                 # Display the current date and time
+39. whoami               # Display the current username
+40. shutdown             # Shut down or reboot the system
