@@ -1,0 +1,44 @@
+
+# Basic Git Commands
+1. git init                        # Initialize a new Git repository
+2. git clone <repository_url>      # Clone a repository from a remote URL
+3. git status                      # Show the status of changes as untracked, modified, or staged
+4. git add <file_or_directory>     # Add changes to the staging area
+5. git commit -m "Commit message"  # Commit changes with a message
+6. git log                         # Display commit history
+
+# Working with Branches
+7. git branch                      # List branches
+8. git branch <branch_name>        # Create a new branch
+9. git checkout <branch_name>      # Switch to a different branch
+10. git merge <source_branch>      # Merge changes from one branch to another
+11. git pull                       # Fetch from and integrate with another repository or branch
+12. git push                       # Push changes to a remote repository
+
+# Handling Changes
+13. git diff                       # Show changes between commits, branches, etc.
+14. git reset --soft HEAD~1        # Undo the last commit
+15. git revert <commit_hash>       # Revert a commit
+16. git stash                      # Temporarily save changes
+17. git stash apply                # Apply stashed changes
+18. git cherry-pick <commit_hash>  # Apply changes from one branch to another
+
+# Inspecting and Comparing
+19. git show <commit_hash>         # Show information about a commit
+20. git log --graph --oneline     # Display a graphical representation of commit history
+
+# Remote Repositories
+21. git remote -v                  # Show remote repositories
+22. git fetch                      # Download objects and refs from another repository
+23. git remote add <name> <url>    # Add a remote repository
+24. git pull <remote_name> <branch_name>  # Fetch and integrate with a remote repository
+
+# Advanced Git
+25. git rebase                     # Reapply commits on top of another base tip
+26. git tag -a <tag_name> -m "Tagging version x.x.x"  # Create an annotated tag
+27. git log --grep="keyword"       # Search commit messages for a keyword
+28. git blame <file>               # Show what revision and author last modified each line of a file
+
+# Git Configuration
+29. git config --global user.name "Your Name"  # Set user name globally
+30. git config --global user.email "your@email.com"  # Set user email globally
